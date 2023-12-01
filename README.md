@@ -4,17 +4,17 @@ A Bayesian Flow Network (BFN) is a generative model that produces an output dist
 
 ## How BFNs Work in a Nutshell
 
-BFNs transmit data from a sender to a receiver distribution and receive an output distribution from a neural network. 
+A sample from a sender distribution (noisy data point) is used to update an input distribution which is then used to receive an output distribution from a neural network. 
 <div align="left">
   <img src="assets/sro_dist.png" alt="SRO Distribution" width="35%">
 </div>
 
-Based on their observations, their posterior is continuously updated...
+Based on the observations (sender distribution samples), the input distributions posterior is continuously updated...
 <div align="left">
   <img src="assets/update_dist.png" alt="Update Distribution" width="50%">
 </div>
 
-.. which creates an updated distribution.
+.. which creates an updated set of input distributions.
 <div align="left">
   <img src="assets/updated_dist.png" alt="Updated Distribution" width="40%">
 </div>
