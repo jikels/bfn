@@ -7,9 +7,9 @@ A Bayesian Flow Network (BFN) is a generative model that integrates Bayesian inf
 BFNs transmit data from a sender to a receiver distribution and receive an output distribution from a neural network. They continuously update their prior to represent the data:
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="assets/sro_dist.png" alt="SRO Distribution" width="35%">
-  <img src="assets/update_dist.png" alt="Update Distribution" width="35%">
-<img src="assets/updated_dist.png" alt="Updated Distribution" width="35%">
+  <img src="assets/sro_dist.png" alt="SRO Distribution" width="30%">
+  <img src="assets/update_dist.png" alt="Update Distribution" width="30%">
+<img src="assets/updated_dist.png" alt="Updated Distribution" width="30%">
 </div>
 
 # Test Case
