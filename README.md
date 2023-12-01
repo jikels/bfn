@@ -1,0 +1,2 @@
+# bfn
+Bayesian Flow Networks
