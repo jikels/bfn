@@ -31,7 +31,6 @@ config = {
     "phase": None,
 }
 
-# Load config from a yaml file
 dir = os.path.dirname(os.path.abspath(__file__))
 output_dir = os.path.join(os.path.dirname(dir), 'assets/generated')
 

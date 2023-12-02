@@ -22,7 +22,7 @@ Based on the observations (sender distribution samples), the input distributions
 
 # Test Case
 
-The test case `bfn/src/test_sinosoidal.py` trains a Bayesian Flow Network (BFN) to generate sinusoidal curves with random amplitudes, frequencies, and phases.
+The test case `bfn/src/test_sinusoidal.py` trains a Bayesian Flow Network (BFN) to generate sinusoidal curves with random amplitudes, frequencies, and phases.
 
 <div align="left">
   <img src="assets/gen_sin.gif" alt="Generated Sinusoidal Data" width="40%">
