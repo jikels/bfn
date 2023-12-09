@@ -1,6 +1,6 @@
 # Bayesian Flow Networks
 
-A Bayesian Flow Network (bfn) is a generative model that produces an output distribution based on a set of independent input distributions that are optimized using Bayesian inference. For more details, refer to the [paper](https://arxiv.org/abs/2308.07037). This repository is a simple implementation of a continous data, discrete time bfn for educational purposes. Thus, comments in the bfn implementation 'bfn/src/bayesian_flow_network/bfn.py' refer to the paper.
+A Bayesian Flow Network (bfn) is a generative model that produces an output distribution based on a set of independent input distributions that are optimized using Bayesian inference. For more details, refer to the [paper](https://arxiv.org/abs/2308.07037). This repository is a simple implementation of a continous data, discrete time bfn for educational purposes. Thus, comments in the bfn implementation `bfn/src/bayesian_flow_network/bfn.py` refer to the paper.
 
 ## How BFNs Work in a Nutshell
 
