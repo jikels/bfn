@@ -57,12 +57,10 @@ for _ in range(config["num_samples"]):
 data_labels = [x+1 for x in range(config["num_points"])]
 
 # Convert list to PyTorch tensor
-#data_samples = torch.stack(data_samples).squeeze()
 data_samples = torch.stack(data_samples, dim=2).squeeze()
 data_labels = torch.tensor(data_labels, dtype=torch.float32).squeeze()
 
 # make one dimensional
-#data_samples = data_samples.view(-1,1)
 data_labels = data_labels.view(-1, 1)
 
 # scale to [-1, 1]
